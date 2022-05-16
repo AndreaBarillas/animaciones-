@@ -76,7 +76,6 @@ header {
     border: 1px;
     padding: 10px;
     margin: 20px;
-    /* background-color: black; */
     background-image: linear-gradient(to top, black, grey);
     text-transform: uppercase;
     border-radius: 50px;
