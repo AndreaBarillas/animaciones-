@@ -65,6 +65,25 @@ header {
     margin: 25px;
     
 }
+
+.imagenUno:hover {
+    filter: opacity(70%);
+}
+
+.imagenDos:hover {
+    filter: opacity(70%);
+}
+
+.imagenTres:hover {
+    filter: opacity(70%);
+}
+
+.imagenCuatro:hover {
+    filter: opacity(70%); 
+}
+.seccionLibros:hover {
+    filter: grayscale(50%);
+}
 .seccionLibros ul li {
     display: inline;
     list-style-type: none;
