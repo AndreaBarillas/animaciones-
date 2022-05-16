@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba( 115, 133, 152, 0.25 );
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    grid-area: titulo;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    background:rgba( 115, 133, 152, 0.25 );
+    font-size: 1rem;
+    margin-left: 25px;
+    grid-area: navegacion;
+}
+
+header {
+    display: grid;
+    grid-template-areas: 
+    "titulo "
+    "titulo "
+    "navegacion";
+}
+
+
+.seccionBiografia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.seccionBiografia p {
+
+    margin: 20px ;
+}
+
+.seccionLibros {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+}
+.seccionLibros ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 15px;
+} 
+.botones {
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 10px;
+    margin: 20px;
+    /* background-color: black; */
+    background-image: linear-gradient(to top, black, grey);
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top:30px ;
+}
+
+
+.seccionTour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.seccionTour p {
+    margin-top: 15px;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.seccionPremios ul li{
+    list-style-type: none;
+}
+.seccionPremios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.entrevistas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.entrevistas h2 {
+    margin: 20px;
+}
+
+.libroUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.libroDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.libroTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.libroCuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
