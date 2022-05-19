@@ -4,10 +4,21 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
-
 }
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+}
+
+.fuentes {
+    font-size: 1,5rem;
+    color: grey;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -18,37 +29,8 @@ header {
     margin: 20px;
     position: sticky;
     top: 0;
-}
-
-h1 {
-    color: black;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
-    grid-area: titulo;
-}
-
-header nav ul li {
-    display: inline-block;
-    list-style-type: none;
     
 }
-header nav ul li a {
-    text-decoration: none;
-    background:rgba( 115, 133, 152, 0.25 );
-    font-size: 1rem;
-    margin-left: 25px;
-    grid-area: navegacion;
-}
-
-header {
-    display: grid;
-    grid-template-areas: 
-    "titulo "
-    "titulo "
-    "navegacion";
-}
-
-
 .seccionBiografia {
     display: flex;
     justify-content: center;
